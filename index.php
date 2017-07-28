@@ -1,17 +1,8 @@
 <?php
 $static_title = 'Khronos OpenWF Registry';
-$static_breadcrumb = array(
-    '/registry/' => 'Registry',
-    'NOLINK' => 'OpenWF Registry'
-);
+
 include_once("../../assets/static_pages/khr_page_top.php");
 ?>
-
-<h1 class="pagetitle">Khronos OpenWF Registry</h1>
-<div id="mainformat">
-
-
-<h1 style="text-align:center"> Khronos OpenWF Registry </h1>
 
 <p> The OpenWF registry contains specifications, header files, and
     sample implementations for the core Composition and Display APIs.
