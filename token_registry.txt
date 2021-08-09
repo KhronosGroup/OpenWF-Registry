@@ -7,7 +7,7 @@
 #
 # Before modifying this file, read the following:
 #
-#   The master copy of the registry, showing up-to-date allocations,
+#   The authoritative copy of the registry, showing up-to-date allocations,
 #   is maintained in the public OpenWF registry at
 #
 #       https://github.com/KhronosGroup/OpenWF-Registry
@@ -85,7 +85,7 @@
 #
 #   4.  No reservations are valid until a branch with the requested change
 #       has been proposed as a pull request on github and accepted into
-#       the master branch.
+#       'main' branch.
 #
 ###############################################################################
 
