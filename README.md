@@ -31,17 +31,17 @@ Interesting files in this repository include:
 OpenWF enumerants are documented in api/token_registry.txt . New ranges can
 be allocated by reserving a range for vendor-specific enumerants, then
 assigning values at will within that range. Allocations are made by
-proposing a pull request to master modifying this file, following the
+proposing a pull request modifying this file, following the
 existing examples. Allocate ranges starting at the lowest free values
 available (search for "Any_future_use") for vendor extensions"). Ranges are
-not officially allocated until your pull request is *accepted* into master.
+not officially allocated until your pull request is *accepted* into 'main' branch.
 At that point you can use values from your assigned range for API
 extensions.
 
 ## Adding Extension Specifications
 
 Extension specification documents can be added by proposing a pull request
-to master, adding the specification files under extensions/<vendor>/ . At
+adding the specification files under extensions/<vendor>/ . At
 present there are no public extensions, although there are some private
 vendor extensions that were never published.
 
